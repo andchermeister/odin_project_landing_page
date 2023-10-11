@@ -1,0 +1,17 @@
+.Header {
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 30px;
+}
