@@ -1,12 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .Header {
     background-color: #1F2937;
-    font-size: 24px;
     color: #F9FAF8;
 }
 
 .headerTop {
     display: flex;
     justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.headerLogo {
+    display: flex;
+    font-size: 24px;
 }
 
 ul {
@@ -14,4 +26,74 @@ ul {
     list-style: none;
     justify-content: space-between;
     gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.headerBottom {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.titleText {
+    font-size: 18px;
+    max-width: 444px;
+    color: #E5E7EB;
+}
+
+button {
+    margin-top: 20px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+}
+
+img {
+    max-height: 250px;
+}
+
+.section2 {
+    text-align: center;
+    margin: 50px;
+}
+
+.box {
+    width: 150px;
+}
+
+
+.title_2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    margin: 50px;
+}
+
+.boxes {
+    display: flex;
+    color: #1F2937;
+    font-size: 18px;
+    gap: 70px;
+    justify-content: center;
+}
+
+.Square {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 20px;
 }
