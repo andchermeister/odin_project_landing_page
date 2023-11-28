@@ -138,3 +138,11 @@ img {
     padding: 12px 28px;
     border-radius: 8px;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px;
+    font-size: 8px;
+    text-align: center;
+}
