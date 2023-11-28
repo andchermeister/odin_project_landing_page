@@ -97,3 +97,21 @@ img {
     border: 3px solid #3882F6;
     border-radius: 20px;
 }
+
+.section3 {
+    background-color: #E5E7EB;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-weight: 200;
+    align-self: flex-end;
+}
